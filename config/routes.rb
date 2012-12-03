@@ -1,7 +1,7 @@
 Mongoidauth::Application.routes.draw do
-  get "sessions/new"
+  get "login" => "sessions#new", :as => "login"
 
-  get "sessions/create"
+  post "sessions/create"
 
   resources :users
 
@@ -55,6 +55,7 @@ Mongoidauth::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
+  root :to => 'sessions#new'
 
   # See how all your routes lay out with "rake routes"
 
