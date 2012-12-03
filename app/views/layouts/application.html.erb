@@ -3,7 +3,7 @@
 <head>
   <title>Mongoidauth</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "application" if false%><!-- To avoid error on cygwin -->
   <%= csrf_meta_tags %>
 </head>
 <body>
