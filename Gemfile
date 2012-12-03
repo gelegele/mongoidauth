@@ -38,3 +38,6 @@ gem 'jquery-rails'
 
 gem 'mongoid'
 gem 'bson_ext'
+
+# To avoid error of rails c on cygwin
+gem 'minitest'
