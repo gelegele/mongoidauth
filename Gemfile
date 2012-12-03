@@ -39,5 +39,8 @@ gem 'jquery-rails'
 gem 'mongoid'
 gem 'bson_ext'
 
+# for SecurePassword
+gem 'bcrypt-ruby', '~> 3.0.0'
+
 # To avoid error of rails c on cygwin
 gem 'minitest'
