@@ -35,3 +35,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'mongoid'
+gem 'bson_ext'
